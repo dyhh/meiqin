@@ -7,13 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>美勤主页</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="css/lrtk.css">
-    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/lrtk.js"></script>
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/lrtk.css">
+    <script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="<%=request.getContextPath()%>/js/bootstrap.min.js"></script>
+    <script src="<%=request.getContextPath()%>/js/lrtk.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -27,7 +27,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
       </button>
-       <div class="logo" style="background-image: url('image/logo.png')">
+       <div class="logo" style="background-image: url('<%=request.getContextPath()%>/image/logo.png')">
 
        </div>
      </div>
@@ -49,7 +49,7 @@
    </div>
   </nav>
     <div class="container">
-    <div class="blog_title_wrapper" style="background-image: url('image/bk.jpeg')">
+    <div class="blog_title_wrapper" style="background-image: url('<%=request.getContextPath()%>/image/bk.jpeg')">
       <div class="blog_title">
         <span class="field-content">专为女性科学健身打造</span>
       </div>
@@ -63,7 +63,7 @@
     <div class="row">
    <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-         <a href="#"><img src="image/高素质全能教练课程.png"></a>
+         <a href="#"><img src="<%=request.getContextPath()%>/image/高素质全能教练课程.png"></a>
          <div class="caption">
             <h3>高素质全能教练课程</h3>
             <p>各类证书认证。</p>
@@ -72,7 +72,7 @@
    </div>
    <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-         <a href="#"><img src="image/高学历提升专业展示.png"></a>
+         <a href="#"><img src="<%=request.getContextPath()%>/image/高学历提升专业展示.png"></a>
          <div class="caption">
             <h3>高学历提升专业展示</h3>
             <p>通过学习获得国家承认的各类资格和学历证书！</p>
@@ -82,7 +82,7 @@
    </div>
    <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-         <a href="#"><img src="image/女性家庭健康课程.png"></a>
+         <a href="#"><img src="<%=request.getContextPath()%>/image/女性家庭健康课程.png"></a>
          <div class="caption">
             <h3>女性家庭健康专家课程</h3>
             <p>引领中国女性家庭健康事业！</p>
